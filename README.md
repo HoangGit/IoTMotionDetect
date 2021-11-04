@@ -27,4 +27,4 @@ You configure rules to route data from your IoT endpoint. You will go to console
 https://docs.aws.amazon.com/iot/latest/developerguide/iot-create-rule.html
  
 # 5.	Open file in S3
-
+You can check your data stored in S3 by going to the location folder in S3 and download the file.
