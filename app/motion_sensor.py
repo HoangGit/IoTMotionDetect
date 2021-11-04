@@ -16,7 +16,7 @@ GPIO.setup(5, GPIO.OUT)         #LED output pin
 myMQTTClient = AWSIoTMQTTClient("ClientID")
 myMQTTClient.configureEndpoint("account-specific-prefix.iot.aws-region.amazonaws.com", 8883)
 
-myMQTTClient.configureCredentials("/home/pi/certs/RootCA1.pem", "/home/pi/certs/Private.pem.key", "/home/pi/certs/device.pem.crt")
+myMQTTClient.configureCredentials("/home/pi/certs/RasRootCA1.pem", "/home/pi/certs/RasPrivate.pem.key", "/home/pi/certs/Rasdevice.pem.crt")
  
 Myvar= myMQTTClient.connect()
 
