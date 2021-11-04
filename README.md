@@ -33,8 +33,8 @@ https://docs.aws.amazon.com/firehose/latest/dev/basic-create.html
 # 4.	Creating rule to query data and send to S3 through kinesis Firehorse
 You configure rules to route data from your IoT endpoint. You will go to console > AWS IoT>Act>Rules> create the rules. Alternative, you can find the method to create rules in this link:
 https://docs.aws.amazon.com/iot/latest/developerguide/iot-create-rule.html
-![image]
-(https://user-images.githubusercontent.com/79141650/140265851-357e4d06-77b5-42b8-969d-33accbe91a4a.png)
+
+![image](https://user-images.githubusercontent.com/79141650/140265851-357e4d06-77b5-42b8-969d-33accbe91a4a.png)
 
  
 # 5.	Open file in S3
